@@ -1,5 +1,5 @@
 # whatsmeow
-[![godocs.io](https://godocs.io/githun.com/lucklrj/whatsmeow?status.svg)](https://godocs.io/githun.com/lucklrj/whatsmeow)
+[![godocs.io](https://godocs.io/github.com/lucklrj/whatsmeow?status.svg)](https://godocs.io/github.com/lucklrj/whatsmeow)
 
 whatsmeow is a Go library for the WhatsApp web multidevice API.
 
@@ -15,8 +15,8 @@ ported from [WhatsappWeb4j] and [Baileys] (also MIT license).
 Matrix room: [#whatsmeow:maunium.net](https://matrix.to/#/#whatsmeow:maunium.net)
 
 ## Usage
-The [godoc](https://godocs.io/githun.com/lucklrj/whatsmeow) includes docs for all methods and event types.
-There's also a [simple example](https://godocs.io/githun.com/lucklrj/whatsmeow#example-package) at the top.
+The [godoc](https://godocs.io/github.com/lucklrj/whatsmeow) includes docs for all methods and event types.
+There's also a [simple example](https://godocs.io/github.com/lucklrj/whatsmeow#example-package) at the top.
 
 Also see [mdtest](./mdtest) for a CLI tool you can easily try out whatsmeow with.
 

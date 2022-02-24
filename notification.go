@@ -10,10 +10,10 @@ import (
 	"errors"
 	"time"
 
-	"githun.com/lucklrj/whatsmeow/appstate"
-	waBinary "githun.com/lucklrj/whatsmeow/binary"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/types/events"
+	"github.com/lucklrj/whatsmeow/appstate"
+	waBinary "github.com/lucklrj/whatsmeow/binary"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/types/events"
 )
 
 func (cli *Client) handleEncryptNotification(node *waBinary.Node) {

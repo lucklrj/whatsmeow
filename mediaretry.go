@@ -15,11 +15,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	waBinary "githun.com/lucklrj/whatsmeow/binary"
-	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/types/events"
-	"githun.com/lucklrj/whatsmeow/util/hkdfutil"
+	waBinary "github.com/lucklrj/whatsmeow/binary"
+	waProto "github.com/lucklrj/whatsmeow/binary/proto"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/types/events"
+	"github.com/lucklrj/whatsmeow/util/hkdfutil"
 )
 
 func getMediaRetryKey(mediaKey []byte) (cipherKey []byte) {

@@ -10,10 +10,10 @@ package store
 import (
 	"time"
 
-	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/util/keys"
-	waLog "githun.com/lucklrj/whatsmeow/util/log"
+	waProto "github.com/lucklrj/whatsmeow/binary/proto"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/util/keys"
+	waLog "github.com/lucklrj/whatsmeow/util/log"
 )
 
 type IdentityStore interface {

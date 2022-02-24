@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"githun.com/lucklrj/whatsmeow/types/events"
-	waLog "githun.com/lucklrj/whatsmeow/util/log"
+	"github.com/lucklrj/whatsmeow/types/events"
+	waLog "github.com/lucklrj/whatsmeow/util/log"
 )
 
 type QRChannelItem struct {

@@ -13,7 +13,7 @@ package socket
 import (
 	"errors"
 
-	"githun.com/lucklrj/whatsmeow/binary/token"
+	"github.com/lucklrj/whatsmeow/binary/token"
 )
 
 const (

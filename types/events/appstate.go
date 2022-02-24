@@ -9,9 +9,9 @@ package events
 import (
 	"time"
 
-	"githun.com/lucklrj/whatsmeow/appstate"
-	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
-	"githun.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/appstate"
+	waProto "github.com/lucklrj/whatsmeow/binary/proto"
+	"github.com/lucklrj/whatsmeow/types"
 )
 
 // Contact is emitted when an entry in the user's contact list is modified from another device.

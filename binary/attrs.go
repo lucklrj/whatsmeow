@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"githun.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/types"
 )
 
 // AttrUtility is a helper struct for reading multiple XML attributes and checking for errors afterwards.

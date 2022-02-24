@@ -11,14 +11,14 @@ import (
 	"fmt"
 	"time"
 
-	"githun.com/lucklrj/libsignal/ecc"
-	"githun.com/lucklrj/libsignal/keys/identity"
-	"githun.com/lucklrj/libsignal/keys/prekey"
-	"githun.com/lucklrj/libsignal/util/optional"
+	"github.com/lucklrj/libsignal/ecc"
+	"github.com/lucklrj/libsignal/keys/identity"
+	"github.com/lucklrj/libsignal/keys/prekey"
+	"github.com/lucklrj/libsignal/util/optional"
 
-	waBinary "githun.com/lucklrj/whatsmeow/binary"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/util/keys"
+	waBinary "github.com/lucklrj/whatsmeow/binary"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/util/keys"
 )
 
 const (

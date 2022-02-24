@@ -7,9 +7,9 @@
 package whatsmeow
 
 import (
-	waBinary "githun.com/lucklrj/whatsmeow/binary"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/types/events"
+	waBinary "github.com/lucklrj/whatsmeow/binary"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/types/events"
 )
 
 // TryFetchPrivacySettings will fetch the user's privacy settings, either from the in-memory cache or from the server.

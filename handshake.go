@@ -13,9 +13,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
-	"githun.com/lucklrj/whatsmeow/socket"
-	"githun.com/lucklrj/whatsmeow/util/keys"
+	waProto "github.com/lucklrj/whatsmeow/binary/proto"
+	"github.com/lucklrj/whatsmeow/socket"
+	"github.com/lucklrj/whatsmeow/util/keys"
 )
 
 const NoiseHandshakeResponseTimeout = 20 * time.Second

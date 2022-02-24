@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	waBinary "githun.com/lucklrj/whatsmeow/binary"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/types/events"
+	waBinary "github.com/lucklrj/whatsmeow/binary"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/types/events"
 )
 
 const InviteLinkPrefix = "https://chat.whatsapp.com/"

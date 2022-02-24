@@ -7,13 +7,13 @@
 package store
 
 import (
-	"githun.com/lucklrj/libsignal/ecc"
-	groupRecord "githun.com/lucklrj/libsignal/groups/state/record"
-	"githun.com/lucklrj/libsignal/keys/identity"
-	"githun.com/lucklrj/libsignal/protocol"
-	"githun.com/lucklrj/libsignal/serialize"
-	"githun.com/lucklrj/libsignal/state/record"
-	"githun.com/lucklrj/libsignal/state/store"
+	"github.com/lucklrj/libsignal/ecc"
+	groupRecord "github.com/lucklrj/libsignal/groups/state/record"
+	"github.com/lucklrj/libsignal/keys/identity"
+	"github.com/lucklrj/libsignal/protocol"
+	"github.com/lucklrj/libsignal/serialize"
+	"github.com/lucklrj/libsignal/state/record"
+	"github.com/lucklrj/libsignal/state/store"
 )
 
 var SignalProtobufSerializer = serialize.NewProtoBufSerializer()

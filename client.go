@@ -20,15 +20,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"githun.com/lucklrj/whatsmeow/appstate"
-	waBinary "githun.com/lucklrj/whatsmeow/binary"
-	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
-	"githun.com/lucklrj/whatsmeow/socket"
-	"githun.com/lucklrj/whatsmeow/store"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/types/events"
-	"githun.com/lucklrj/whatsmeow/util/keys"
-	waLog "githun.com/lucklrj/whatsmeow/util/log"
+	"github.com/lucklrj/whatsmeow/appstate"
+	waBinary "github.com/lucklrj/whatsmeow/binary"
+	waProto "github.com/lucklrj/whatsmeow/binary/proto"
+	"github.com/lucklrj/whatsmeow/socket"
+	"github.com/lucklrj/whatsmeow/store"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/types/events"
+	"github.com/lucklrj/whatsmeow/util/keys"
+	waLog "github.com/lucklrj/whatsmeow/util/log"
 )
 
 // EventHandler is a function that can handle events from WhatsApp.

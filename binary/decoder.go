@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"githun.com/lucklrj/whatsmeow/binary/token"
-	"githun.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/binary/token"
+	"github.com/lucklrj/whatsmeow/types"
 )
 
 type binaryDecoder struct {

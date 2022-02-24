@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	signalProtocol "githun.com/lucklrj/libsignal/protocol"
+	signalProtocol "github.com/lucklrj/libsignal/protocol"
 )
 
 // Known JID servers on WhatsApp

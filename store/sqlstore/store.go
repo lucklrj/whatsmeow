@@ -16,9 +16,9 @@ import (
 	"sync"
 	"time"
 
-	"githun.com/lucklrj/whatsmeow/store"
-	"githun.com/lucklrj/whatsmeow/types"
-	"githun.com/lucklrj/whatsmeow/util/keys"
+	"github.com/lucklrj/whatsmeow/store"
+	"github.com/lucklrj/whatsmeow/types"
+	"github.com/lucklrj/whatsmeow/util/keys"
 )
 
 // ErrInvalidLength is returned by some database getters if the database returned a byte array with an unexpected length.

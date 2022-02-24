@@ -16,19 +16,19 @@ import (
 	"strconv"
 	"time"
 
-	"go.mau.fi/libsignal/signalerror"
+	"githun.com/lucklrj/libsignal/signalerror"
 	"google.golang.org/protobuf/proto"
 
-	"go.mau.fi/libsignal/groups"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/session"
+	"githun.com/lucklrj/libsignal/groups"
+	"githun.com/lucklrj/libsignal/protocol"
+	"githun.com/lucklrj/libsignal/session"
 
-	"go.mau.fi/whatsmeow/appstate"
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	"githun.com/lucklrj/whatsmeow/appstate"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
+	"githun.com/lucklrj/whatsmeow/store"
+	"githun.com/lucklrj/whatsmeow/types"
+	"githun.com/lucklrj/whatsmeow/types/events"
 )
 
 var pbSerializer = store.SignalProtobufSerializer

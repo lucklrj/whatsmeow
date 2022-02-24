@@ -11,7 +11,7 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"go.mau.fi/libsignal/ecc"
+	"githun.com/lucklrj/libsignal/ecc"
 	"golang.org/x/crypto/curve25519"
 )
 

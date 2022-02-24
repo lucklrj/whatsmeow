@@ -7,13 +7,13 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	groupRecord "go.mau.fi/libsignal/groups/state/record"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/serialize"
-	"go.mau.fi/libsignal/state/record"
-	"go.mau.fi/libsignal/state/store"
+	"githun.com/lucklrj/libsignal/ecc"
+	groupRecord "githun.com/lucklrj/libsignal/groups/state/record"
+	"githun.com/lucklrj/libsignal/keys/identity"
+	"githun.com/lucklrj/libsignal/protocol"
+	"githun.com/lucklrj/libsignal/serialize"
+	"githun.com/lucklrj/libsignal/state/record"
+	"githun.com/lucklrj/libsignal/state/store"
 )
 
 var SignalProtobufSerializer = serialize.NewProtoBufSerializer()

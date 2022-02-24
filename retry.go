@@ -11,16 +11,16 @@ import (
 	"fmt"
 	"time"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/groups"
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/protocol"
+	"githun.com/lucklrj/libsignal/ecc"
+	"githun.com/lucklrj/libsignal/groups"
+	"githun.com/lucklrj/libsignal/keys/prekey"
+	"githun.com/lucklrj/libsignal/protocol"
 	"google.golang.org/protobuf/proto"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
+	"githun.com/lucklrj/whatsmeow/types"
+	"githun.com/lucklrj/whatsmeow/types/events"
 )
 
 // Number of sent messages to cache in memory for handling retry receipts.

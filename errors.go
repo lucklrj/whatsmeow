@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
 )
 
 // Miscellaneous errors

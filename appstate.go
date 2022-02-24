@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"time"
 
-	"go.mau.fi/whatsmeow/appstate"
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	"githun.com/lucklrj/whatsmeow/appstate"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
+	"githun.com/lucklrj/whatsmeow/store"
+	"githun.com/lucklrj/whatsmeow/types"
+	"githun.com/lucklrj/whatsmeow/types/events"
 )
 
 // FetchAppState fetches updates to the given type of app state. If fullSync is true, the current

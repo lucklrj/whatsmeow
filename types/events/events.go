@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
+	"githun.com/lucklrj/whatsmeow/types"
 )
 
 // QR is emitted after connecting when there's no session data in the device store.

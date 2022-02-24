@@ -17,13 +17,13 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"go.mau.fi/libsignal/ecc"
+	"githun.com/lucklrj/libsignal/ecc"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/keys"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
+	"githun.com/lucklrj/whatsmeow/types"
+	"githun.com/lucklrj/whatsmeow/types/events"
+	"githun.com/lucklrj/whatsmeow/util/keys"
 )
 
 const qrScanTimeout = 30 * time.Second

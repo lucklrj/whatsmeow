@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	"githun.com/lucklrj/whatsmeow/types"
 )
 
 func (cli *Client) generateRequestID() string {

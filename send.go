@@ -19,14 +19,14 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"go.mau.fi/libsignal/groups"
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/session"
+	"githun.com/lucklrj/libsignal/groups"
+	"githun.com/lucklrj/libsignal/keys/prekey"
+	"githun.com/lucklrj/libsignal/protocol"
+	"githun.com/lucklrj/libsignal/session"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
+	"githun.com/lucklrj/whatsmeow/types"
 )
 
 // GenerateMessageID generates a random string that can be used as a message ID on WhatsApp.

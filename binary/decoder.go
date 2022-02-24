@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"go.mau.fi/whatsmeow/binary/token"
-	"go.mau.fi/whatsmeow/types"
+	"githun.com/lucklrj/whatsmeow/binary/token"
+	"githun.com/lucklrj/whatsmeow/types"
 )
 
 type binaryDecoder struct {

@@ -11,8 +11,8 @@ import (
 	"math/rand"
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/types"
+	waBinary "githun.com/lucklrj/whatsmeow/binary"
+	"githun.com/lucklrj/whatsmeow/types"
 )
 
 var (

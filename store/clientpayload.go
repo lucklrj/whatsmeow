@@ -15,9 +15,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"go.mau.fi/libsignal/ecc"
+	"githun.com/lucklrj/libsignal/ecc"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
+	waProto "githun.com/lucklrj/whatsmeow/binary/proto"
 )
 
 // waVersion is the WhatsApp web client version

@@ -17,7 +17,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/lucklrj/libsignal/ecc"
+	"go.mau.fi/libsignal/ecc"
 
 	waBinary "github.com/lucklrj/whatsmeow/binary"
 	waProto "github.com/lucklrj/whatsmeow/binary/proto"

@@ -12,7 +12,7 @@ require (
 require (
 	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/lucklrj/libsignal v0.0.0-20211109153248-a67163214910 // indirect
+	go.mau.fi/libsignal v0.0.0-20211109153248-a67163214910 // indirect
 	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
 	rsc.io/qr v0.2.0 // indirect
 )

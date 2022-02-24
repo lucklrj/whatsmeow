@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lucklrj/libsignal/ecc"
-	"github.com/lucklrj/libsignal/groups"
-	"github.com/lucklrj/libsignal/keys/prekey"
-	"github.com/lucklrj/libsignal/protocol"
+	"go.mau.fi/libsignal/ecc"
+	"go.mau.fi/libsignal/groups"
+	"go.mau.fi/libsignal/keys/prekey"
+	"go.mau.fi/libsignal/protocol"
 	"google.golang.org/protobuf/proto"
 
 	waBinary "github.com/lucklrj/whatsmeow/binary"

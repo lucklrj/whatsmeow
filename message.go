@@ -16,12 +16,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/lucklrj/libsignal/signalerror"
+	"go.mau.fi/libsignal/signalerror"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/lucklrj/libsignal/groups"
-	"github.com/lucklrj/libsignal/protocol"
-	"github.com/lucklrj/libsignal/session"
+	"go.mau.fi/libsignal/groups"
+	"go.mau.fi/libsignal/protocol"
+	"go.mau.fi/libsignal/session"
 
 	"github.com/lucklrj/whatsmeow/appstate"
 	waBinary "github.com/lucklrj/whatsmeow/binary"
